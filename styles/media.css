@@ -1,0 +1,73 @@
+@media screen and (max-width: 660px) {
+  .header {
+    background: none;
+    background-color: aliceBlue;
+    min-height: 100px;
+  }
+
+  .title {
+    font-size: 20px;
+    background-color: #7FFFD4;
+    color: black;
+  }
+
+  .main {
+    margin-top: 50px;
+  }
+
+  #search-button {
+    font-size: 18px;
+  }
+
+  .keyword-input {
+    font-size: 18px;
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .gifs-box {
+    margin-top: 50px;
+  }
+
+  .gifs-box {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    img {
+        width: 325px;
+        height: 325px;
+    }
+
+    .gifContainer {
+        height: 375px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main {
+        gap: 10px
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .title {
+        font-size: 14px;
+    }
+
+    .keyword-input {
+        max-width: 190px;
+        width: 100%;
+    }
+
+    .main {
+        gap: 5px;
+    }
+}
